@@ -6,7 +6,7 @@ import Bg from "./components/Bg";
 const MainRoutes = () => {
     const PUBLIC_ROUTES = [
         {
-            link: '/asd',
+            link: '/par',
             element: <Bg/>,
             id: 1
         }

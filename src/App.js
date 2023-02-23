@@ -5,7 +5,7 @@ import MainRoutes from './MainRoutes'
 const App = () => {
   return (
     <>
-      <Bg/>
+      {/* <Bg/> */}
       <MainRoutes/>
     </>
   )

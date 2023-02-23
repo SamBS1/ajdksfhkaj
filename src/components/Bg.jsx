@@ -1,18 +1,24 @@
-import React from 'react'
-import {Parallax, ParallaxLayer} from '@react-spring/parallax'
- 
+import React from "react";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import "../components/Bg.css";
 const Bg = () => {
   return (
-    <>
-    <Parallax>
+    //     <Parallax>
 
-    <ParallaxLayer >
-jhdsgjgjslg
-    </ParallaxLayer>
+    //     <ParallaxLayer >
+    //       <div>
+    // <p style={{color: "black"}}>
 
-    </Parallax>
-    </>
-  )
-}
+    // jhdsgjgjslg
+    // </p>
+    //       </div>
+    //     </ParallaxLayer>
 
-export default Bg
+    //     </Parallax>
+    <div>
+      <p className="colortext">в строке адрес напиши /par</p>
+    </div>
+  );
+};
+
+export default Bg;
